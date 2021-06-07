@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\vsire\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add .
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vsire\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\vsire\AppData\Local\Microsoft\WindowsApps;C:\Users\vsire\.dotnet\tools;C:\Users\vsire\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\web\webpack\package.json: Unexpected token } in JSON at position 1157
+      at JSON.parse (<anonymous>)
+      at C:\Users\vsire\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\vsire\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\vsire\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "default-pack",
+      "version": "1.0",
+      "license": "none",
+      "dependencies": {
+          "@babel/core": "^7.13.10",
+          "@babel/preset-env": "^7.13.10",
+          "babel-loader": "^8.2.2",
+          "css-loader": "^5.1.2",
+          "html-webpack-plugin": "^4.5.1",
+          "node-sass": "^5.0.0",
+          "react": "^17.0.1",
+          "react-dom": "^17.0.1",
+          "react-router-dom": "^5.2.0",
+          "sass": "^1.26.10",
+          "sass-loader": "^10.0.2",
+          "style-loader": "^1.2.1",
+          "webpack-dev-server": "^3.11.2"
+      },
+      "devDependencies": {
+          "@babel/plugin-proposal-class-properties": "^7.13.0",
+          "@babel/plugin-transform-runtime": "^7.13.10",
+          "@babel/preset-react": "^7.12.13",
+          "file-loader": "^6.2.0",
+          "main": "index.js",
+          "webpack": "^4.44.1",
+          "webpack-cli": "^3.3.12"
+      },
+      "scripts": {
+          "dev": "webpack-dev-server --open --config webpack.config.js",
+          "build": "webpack --mode production"
+      },
+      "description": "- thr default webpack settings",
+      "main": "index.js",
+      "repository": "/src",
+      "author": "renklod",
+      "private": null,
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
